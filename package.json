@@ -1,0 +1,19 @@
+{
+  "name": "api-detetive-virtual",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./dist/index.js",
+    "tsc": "tsc --watch"
+  },
+  "author": "Arthur Axiotes",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "nodemon": "^3.1.9"
+  }
+}
